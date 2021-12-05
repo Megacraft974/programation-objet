@@ -1,0 +1,6 @@
+class Time(object):
+    "nouvelle classe temporelle"
+    def affiche_heure(self):
+        print(str(self.heure) +":" +str(self.minute) +":" +str(self.seconde))
+
+Time().affiche_heure()
